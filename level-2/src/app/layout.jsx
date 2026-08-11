@@ -22,8 +22,10 @@ export default function RootLayout({ children }) {
         <nav className="bg-gray-800 text-white p-4 flex gap-4">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="/bio">Bio</Link>
           <Link href="/about/sohan">Sohan</Link>
+          <Link href="/bio">Bio</Link>
+          <Link href="/profile">Profile</Link>
+          <Link href="/profile1">Profile1</Link>
         </nav>
 
         <div className="p-4 outline outline-red-700">
